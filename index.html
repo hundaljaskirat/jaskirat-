@@ -1,93 +1,82 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Rent a Book</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <!-- Link the contact section below -->
-    <ul class="menu">
-        <li class="link"><a href="#bio">About</a></li>
-        <li class="link"><a href="#References">My favorite books</a></li>
-        <li class="link"><a href="#Mywork">My work</a></li>
-        <li class="link"><a href="#MyInspiration">Inspiration</a></li>
-        <li class="link">Contact</li>
-    </ul>
-    <section id="welcome">
-        <img src="kid.jpg">
-        <h1>My Favorite hobby is <br><span id="myname">Reading books</span></h1>
-        <h2>I love reading books</h2>
-    </section>
-    <section id="bio">
-        <h1>About</h1>
-        <div class="line"></div>
-        <p class="para">My hobby is reading interesting and knowledgeable books in my free time. Whenever I go to home from my school I like to read such books after completing my home work. I am 12 years old and read in class 7th standard. Now I know very well that reading is very good habit which can make me a complete. This hobby can be developed by anyone however I got this naturally. Reading books keep one always happy and busy. It is the good source of enjoyment, knowledge, inspiration and instruction. It makes us disciplined, loyal, punctual and most importantly a successful person in the life.
-        </p>
-    </section>
-    <section id="References">
-        <h1>Here is my Favourite book and reviews on it</h1>
-        <div class="line"></div>
-        <iframe width="700" height="700" src="https://freelymagazine.com/2018/02/14/book-review-i-am-mahala/#:~:text=%E2%80%9CEducation%20is%20education.&text=The%20near%2Dfatal%20attack%20gave,Prize%20winner%20of%20all%20times"></iframe>
-        <div class="jj">
-            <a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank">Click here to view my favorite book of all time </a>
-        </div>
-    </section>
-    <section id="Mywork">
-        <h1>I also love writing short passages</h1>
-        <div class="line"></div>
-        <button class='button'><a href="story.html">Click here to view my story</a></button>
-    </section>
-    <section id="MyInspiration" class='inspiration'>
-        <h1>My Inspiration</h1>
 
-        <div class="line"></div>
-        <div id="myname">
-            click on the pictures to view my Inspiration</div>
 
-        <div>
+  
+<div class="container">
+	
+  <div class="page-header" id="books">
+  		<h2 class="text-capitalize">places must visit</h2>
+  </div>
+    
+  	<center>
+  		<div  class="book_mainDiv"> 
+  			<img class="img-responsive"  src="book%20shop.jpg">
 
-            <span>
+  			<h4 class="text-capitalize"><kbd>BOOK SHOP</kbd></h4>
+  			
+  			<hr >
+            
+           <!-- Add the "text-capitalize" class 
+            along with "text-success text-left"-->
+            <h5 class="text-success text-left " >the greatest ever book shop in the world</h5>
 
-                <a href="https://www.jkrowling.com/" target="_blank">
-                    <img id="picture" src="jkrowling.jpg">
-                </a>
-            </span>
+  			<p class="text-muted text-left" > Bookshop is an online bookstore with a mission to financially support local, independent bookstores.
+We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime. They’re also anchors for our downtowns and communities. </p>
+  		</div>
+  	</center>
 
-            <span>
+<br><br>
 
-                <a href="https://en.wikipedia.org/wiki/Arundhati_Roy" target="_blank">
-                    <img id="picture" src="arundhati.jpg">
-                </a>
-            </span>
-        </div>
+  	
+	<div class="page-header" id="list">
+  		<h2 class="text-capitalize">list of books</h2>
+  </div>
 
-    </section>
+<div class="bg-primary book_head" data-toggle="collapse" data-target="#hp" >
+    <span class="glyphicon glyphicon-book" ></span> Harry Potter<i class="fa fa-sort-desc" ></i>
+  </div>
 
-    <section id="contact">
+  <div id="hp" class="collapse">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3426.1306677254142!2d74.44755831438324!3d30.827004588135686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919dafd20c5fc53%3A0x114daef4e4f32458!2shundal%20niwas!5e0!3m2!1sen!2sin!4v1632038273113!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="contact_1">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <!-- add the class "img-thumbnail" along with "img-responsive"-->
+	  		<img src="hp.jpg" class="img-responsive "> 
+	  </div>
+      <!-- add the  class 
+     "col-lg-9 col-md-9 col-sm-9 col-xs-12" along with "book_text" -->
 
-            <a href="mailto:someone@example.com?Subject=Hello">
-                <!-- Use Font awesome class to show the envelope icon : fa fa-envelope-->
-                <i class=""></i>&nbsp;&nbsp;<h3>2009jaskiratsingh00018@gmail.com</h3>
-            </a>
+	  <div class=" book_text " >
+		  <h5 class="text-success text-left text-capitalize">Harry Potter and the Deathly Hallows is a rousing culmination of seven books' worth of page-turning plot 
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+      </h5>
+		  <p>It doesn't rely solely on its previous installments to wow you. There are new characters, new dangers, and new twists to keep you guessing. It's a satisfying conclusion to a much-loved series.</p>
+	  </div>
+  
+  </div>
 
-            <br>
-            <br>
 
-            <a href="#">
-                 <!-- Use Font awesome class to show the instagram icon : fa fa-instagram-->
-                <i class=""></i>&nbsp;&nbsp;<h3>myinstagramid</h3>
-            </a>
-
-        </div>
-
-    </section>
 
 </body>
-
 </html>

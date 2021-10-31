@@ -1,75 +1,51 @@
-.container
+
+input
 {
-    text-align: center;
+    background: grey
 }
-.menu1{
-float:left;
-list-style:none;
-color:white;
-position:fixed;
-background:black;
-width:100%;
-margin-top:0px;
-top:0px;
-z-index:10;
+
+.book_mainDiv
+{
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
 }
-.links{
-display:inline;
-font-size:20px;
-padding-left:35px;
-padding-right:35px;
-}
-#img1{
+
+.book_mainDiv img
+{
   width: 100%;
 }
-.img2{
-    width: 250px;
-    height: 200px;
-}
-.thumb{
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.modal-content
+
+.book_mainDiv hr
 {
-  margin-top: 100px;
+    width: 230px; 
 }
 
-.img_modal
-  {
-    display: inline-block;
-  }
-
-.modal-body
+.book_mainDiv h5 , .book_mainDiv p
 {
-    text-align: center
-}
-#contact iframe
-{
-    width: 100%;
-}
-.contact_1 h3
-{
-    display: inline;
-}
-.contact_1 a
-{
-    text-shadow: none;
-}
-#myCarousel
-{
-    background-color: red;
+margin-left: 20px;
 }
 
-#myCarousel img
-{
-    height: 350px;
-       }
 
-.carousel-inner p
+.book_head
 {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    color : white;
     font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
 }
+
+.book_head i
+{
+float: right;
+}
+
+.book_text span
+{
+color: #ff7700;
+}
+
+
