@@ -1,46 +1,31 @@
-#contact iframe
-{
-    width: 100%;
-}
-.contact_1 h3
-{
-    display: inline;
-}
-.contact_1 a
-{
-    text-shadow: none;
-}
- 
-input
-{
-    background: grey
-}
 
 
-.nutrition_li
+.book
 {
-  margin-top: 13px;
+  cursor: pointer;
 }
 
-.nutrition_li h4
+.sport hr
 {
-    border-bottom: 1px solid white;
-    padding: 8px;
+  margin-bottom: 10px;
 }
 
-.nutrition_li img
+.modal-content
 {
-  border-radius: 25px;
+  margin-top: 100px;
 }
 
-.nutrition_li p
-{
-  margin-top:10px;
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
 }
-
-.header_entrepreneur
+.modal-body
 {
-  line-height: 2;
+    text-align: center
 }
 
 
